@@ -32,44 +32,9 @@ create_items()
 #  Придумайте своих уникальных персонажей
 #  или заставьте сражаться знаменитостей,
 #  посмотрим кто сильнее =)
-# def create_characters():
-#    characters = []
-#    names = ['Frodo Baggins','Gandalf the Grey', 'Samwise Gamgee',
-#  'Meriadoc Brandybuck', 'Peregrin Took', 'Aragorn',
-#            'Legolas', 'Gimli', 'Boromir', 'Sauron', 'Gollum',
-#  'Bilbo Baggins', 'Tom Bombadil', 'Elrond',
-#             'Arwen Evenstar', 'Galadriel', 'Saruman the White', 'Eomer',
-#  'Theoden', 'Eowyn']
-#
-#    i = 0
-#    while i <= 9:
-#        choice = random.choice([1, 2])
-#        if choice == 1:
-#            characters.append(Paladin(names[i], 100, 10, 5))
-#       else:
-#            characters.append(Warrior(names[i], 100, 10, 5))
-#        i += 1
-#
-#    return characters
-
 
 # Шаг 3 - одеваем персонажей рандомными вещами.
 #  Кому-то 1, кому-то больше, но не более 4 вещей в одни руки;
-# def main():
-#    characters = create_characters()
-#    items = create_items()
-#
-#    for character in characters:
-#        quantity_of_items = random.randrange(1, 4, 1)
-#        items_set = []
-#        i = 0
-#        while i <= (quantity_of_items-1):
-#            item_number = random.randrange(0, 20, 1)
-#            items_set.append(items[item_number])
-#            i += 1
-#
-#        character.set_things(items_set)
-
 
 # Шаг 4 - отправляем персонажей на арену,
 #  и в цикле в произвольном порядке выбирается пара Нападающий и Защищающийся.
