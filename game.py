@@ -21,16 +21,13 @@ class Person:
         self.baze_protect_health = baze_protect_health
         print(f'Создаем нового персонажа {name}')
 
-
     # метод, принимающий на вход список вещей set_things(things)
     def set_things(self, things):
         raise NotImplementedError
 
-
     # метод вычитания жизни на основе входной атаки,
     def get_damage(self, damge):
         raise NotImplementedError
-
 
     # а также методы для выполнения алгоритма, представленного ниже
 
