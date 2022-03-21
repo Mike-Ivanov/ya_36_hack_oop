@@ -12,10 +12,11 @@ def create_items():
     # quantity_of_items = 20
     # Список имен вещей
     thing_names = ['Вещь 1', 'Вещь 2', 'Вещь 3', 'Вещь 4', 'Вещь 5',
-        'Вещь 6', 'Вещь 7', 'Вещь 8', 'Вещь 9', 'Вещь 10']
+                   'Вещь 6', 'Вещь 7', 'Вещь 8', 'Вещь 9', 'Вещь 10']
 
     for i in range(10):
-        thing_list.append(Thing(thing_names[i], random.randrange(0, 10, 1), 0, 0))
+        thing_list.append(Thing(thing_names[i],
+                          random.randrange(0, 10, 1), 0, 0))
         i = i + 1
 
     # thing_list = sorted(thing_list)
